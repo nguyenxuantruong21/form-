@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: Helvetica;
+    background-color: gainsboro;
+}
+
+/* icon dang nhap */
+.icon__login{
+    height: 20px;
+    width: 150px;
+    border: 1px solid black;
+    margin: 20px 20px;
+    border-radius: 13px;
+    text-align: center;
+    font-size: 15px;
+    background-color:white;
+    cursor: pointer;
+}
+
+/* icon xoa */
+.close{
+    margin-left: 850px;
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    padding: 5px 10px;
+    border-radius: 50%;  
+    cursor: pointer; 
+    background-color: aliceblue; 
+}
+
+
+.wrapper_1{
+    height: 500px;
+    width: 800px;
+    /* border: 1px solid black; */
+    margin: 50px 50px;
+    margin-top:0px ;
+    background-color: rgb(245, 248, 252);
+}
+
+.lg1{
+    border-bottom: 2px solid #c0392b ;
+    color: #c0392b;
+}
+
+.sg1{
+    border-bottom: 2px solid #c0392b ;
+    color: #c0392b;
+}
+
+/* title  */
+.title{
+    display: flex;
+    height: 50px;
+    cursor: pointer;
+}
+
+.title__ls{
+    flex-grow: 1;
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* form */
+
+.form{
+    display: flex;
+}
+.form_1{
+    flex-grow: 1;
+    height: 300px;
+    width: 400px;
+}
+
+.form_1 p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color:#333;
+    cursor: pointer;
+}
+.outline_1{
+    outline: 1px solid rgb(212, 211, 211);
+    height: 280px;
+    margin-top: 10px;
+}
+.outline_2{
+    outline: 1px solid rgb(212, 211, 211);
+    width: 700px;
+    margin: 5px auto;
+}
+
+
+.form__left{
+    width: 350px;
+    margin: 10px 20px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+input{
+    height: 37px;
+    width: 300px;
+    border: none;
+    outline: none;
+    background-color: rgb(245, 248, 252);
+}
+
+div .password{
+    display: flex;
+}
+div .password a{
+    margin: 10px 12px;
+    color: #333;
+}
+
+.form__login--email button{
+    background-color: rgb(185, 184, 184);
+    border: none;
+    color: white;
+}
+
+.form_1 button{
+    cursor: pointer;
+}
+
+
+
+/* form right */
+.form__right{
+    width: 350px;
+    height: 39px;
+    border: 1px solid black;
+    margin: 25px 22px;
+    text-align: center;
+    display: flex;
+    padding: 6px ;
+    cursor: pointer;
+}
+
+.form__right img{
+    margin-left: 5px;
+}
+.form__right span{
+    flex-grow: 1;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.facebook{
+    color: #130f40;
+    border-color: #130f40;
+}
+.facebook a{
+    color:#130f40;
+}
+
+.google{
+    color:#4834d4 ;
+    border-color: #4834d4;
+}
+.apple a{
+    color: #000;
+}
+
+
+/* product */
+
+.product p{
+    text-align: center;
+    margin-top: 35px;
+}
+
+.image{
+    text-align: center;
+    margin-top: 10px;
+
+}
+.image *{
+    margin:  10px 10px;
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
+.image *:hover{
+    filter: none
+}
+
+
+/* /////////////////////////////////////////////////////////////// */
+
+.wrapper_2{
+    height: 500px;
+    width: 800px;
+    /* border: 1px solid black; */
+    margin: 50px 50px;
+    margin-top: 0px;
+    background-color: rgb(245, 248, 252);
+}
+
+.wrapper_2 p{
+    text-align: center;
+}
+
+
+
+/* title  */
+.title_2{
+    display: flex;
+    height: 50px;
+    cursor: pointer;
+}
+
+.title__ls_2{
+    flex-grow: 1;
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* form */
+
+.form_2{
+    display: flex;
+}
+.form_2{
+    flex-grow: 1;
+    height: 300px;
+    width: 400px;
+}
+
+
+.outline_1_2{
+    outline: 1px solid rgb(212, 211, 211);
+    height: 280px;
+    margin-top: 10px;
+}
+.outline_2_2{
+    outline: 1px solid rgb(212, 211, 211);
+    width: 700px;
+    margin: 5px auto;
+}
+
+
+.form__left_2{
+    width: 350px;
+    margin: 10px 20px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+input{
+    height: 37px;
+    width: 300px;
+    border: none;
+    outline: none;
+    background-color: rgb(245, 248, 252);
+}
+
+div .password_2{
+    display: flex;
+}
+div .password_2 a{
+    margin: 10px 12px;
+    color: #333;
+}
+
+.form__signup--email_2 button{
+    background-color: rgb(185, 184, 184);
+    border: none;
+    color: white;
+}
+
+.text {
+    margin: 5px 5px;
+    height: 70px;
+    overflow:hidden;
+    padding: 10px;
+}
+.text_2 {
+    margin: 5px 5px;
+    height: 50px;
+    overflow:hidden;
+    padding: 10px;
+}
+
+.form_2 button{
+    cursor: pointer;
+}
+
+
+
+/* form right */
+.form__right_2{
+    width: 350px;
+    height: 39px;
+    border: 1px solid black;
+    margin: 25px 22px;
+    text-align: center;
+    display: flex;
+    padding: 6px ;
+    cursor: pointer;
+}
+
+.form__right_2 img{
+    margin-left: 5px;
+}
+.form__right_2 span{
+    flex-grow: 1;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.facebook_2{
+    color: #130f40;
+    border-color: #130f40;
+}
+.facebook_2 a{
+    color:#130f40;
+}
+
+.google_2{
+    color:#4834d4 ;
+    border-color: #4834d4;
+}
+.apple_2 a{
+    color: #000;
+}
+
+
+/* product */
+
+.product_2 p{
+    text-align: center;
+    margin-top: 35px;
+}
+
+.image_2{
+    text-align: center;
+    margin-top: 10px;
+
+}
+.image_2 *{
+    margin:  10px 10px;
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
+.image_2 *:hover{
+    filter: none
+}
+
+/* ////////////////////////////////////////////// */
+
